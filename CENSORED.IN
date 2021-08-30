@@ -1,0 +1,19 @@
+11
+the
+allocator
+type
+access
+value
+object
+created
+a
+an
+qualified
+expression
+The type of an object created by an allocator is the base type of the
+type mark given in either the subtype indication or the qualified expression.
+Allocator (for an) with a qualified expression, this expression defines
+the initial value of the created object. A type of the access value returned
+by an allocator must be determinable solely from the contest, but using the
+fact that the value returned is of an access type having the named designator
+type. Theoretically, the word "theoretically" is not the word "the" .
